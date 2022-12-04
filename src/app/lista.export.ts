@@ -111,10 +111,21 @@ export const lista = [
     },
     {
         id: 17,
-        nome: 'Alessandra'
+        nome: 'Alessandra',
+        presente: [
+            {
+                descricao: 'Havaianas número 37',
+                imagem: '/assets/alessandra1.png'
+            },
+        ]
     },
     {
         id: 18,
-        nome: 'Mateus'
+        nome: 'Mateus',
+        presente: [
+            {
+                descricao: 'Itens de churrasco',
+            },
+        ]
     },
 ]
