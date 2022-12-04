@@ -58,7 +58,7 @@ export const lista = [
         nome: 'Brian',
         presente: [
             {
-                descricao: 'Headset (Fone de ouvido) gamer',
+                descricao: 'Headset gamer (tipo o da foto)',
                 imagem: '/assets/brian1.png'
             }
         ]
