@@ -114,7 +114,7 @@ export const lista = [
         nome: 'Alessandra',
         presente: [
             {
-                descricao: 'Havaianas número 37',
+                descricao: 'Havaianas número 37 (tipo a da imagem)',
                 imagem: '/assets/alessandra1.png'
             },
         ]
