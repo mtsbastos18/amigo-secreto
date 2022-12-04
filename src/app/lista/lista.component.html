@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h1>Participantes</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button class="btn btn-primary" *ngFor="let l of lista"
+                [routerLink]="['/detalhe', l.id]">{{l.nome}}</button>
+        </div>
+    </div>
+</div>
