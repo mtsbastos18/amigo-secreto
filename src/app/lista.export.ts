@@ -31,11 +31,21 @@ export const lista = [
     },
     {
         id: 4,
-        nome: 'Eva'
+        nome: 'Eva',
+        presente: [
+            {
+                descricao: 'Perfume florata ou similar',
+            }
+        ]
     },
     {
         id: 5,
-        nome: 'Carlos (Eva)'
+        nome: 'Carlos (Eva)',
+        presente: [
+            {
+                descricao: 'Perfume kaiak ou similar',
+            }
+        ]
     },
     {
         id: 6,
@@ -65,7 +75,15 @@ export const lista = [
     },
     {
         id: 11,
-        nome: 'Josi'
+        nome: 'Josi',
+        presente: [
+            {
+                descricao: 'Hidratante corporal, para mãos ou para os pé'
+            },
+            {
+                descricao: 'Havaianas número 37 (pode ser com estampa, flores, bichinhos, temas de série ou desenho, o que tiver)'
+            }
+        ]
     },
     {
         id: 12,
@@ -78,7 +96,12 @@ export const lista = [
     },
     {
         id: 13,
-        nome: 'Valoir'
+        nome: 'Valoir',
+        presente: [
+            {
+                descricao: 'Chinelo havaiana preto 40 e um cinto'
+            }
+        ]
     },
     {
         id: 14,
@@ -107,7 +130,13 @@ export const lista = [
     },
     {
         id: 16,
-        nome: 'Luis'
+        nome: 'Luis',
+        presente: [
+            {
+                descricao: 'Luva X11 Fit X Meio Dedo <a target="_blank" href="https://www.spinellimotos.com.br/produto/luva-x11-fit-x-meio-dedo">Link da loja em porto alegre</a>',
+                imagem: '/assets/luis1.png'
+            }
+        ]
     },
     {
         id: 17,

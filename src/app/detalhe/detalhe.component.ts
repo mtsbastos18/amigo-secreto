@@ -15,7 +15,6 @@ export class DetalheComponent implements OnInit {
   ngOnInit(): void {
     this.id = this.route.snapshot.params['id'];
     this.pessoa = lista.find(x => x.id == this.id);
-    console.log(this.pessoa)
   }
 
 }

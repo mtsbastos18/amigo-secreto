@@ -11,7 +11,7 @@
             <h5>Opções de presente: </h5>
         </div>
         <div class="col-12 mt-2" *ngFor="let p of pessoa.presente">
-            <p>- <strong>{{p.descricao}}</strong></p>
+            <p>- <strong [innerHTML]="p.descricao"></strong></p>
             <img *ngIf="p.imagem" [src]="p.imagem" class="img-fluid">
         </div>
     </div>
