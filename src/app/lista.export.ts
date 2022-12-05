@@ -49,19 +49,48 @@ export const lista = [
     },
     {
         id: 6,
-        nome: 'Paulinho'
+        nome: 'Paulinho',
+        presente: [
+            {
+                descricao: 'camisa polo preta tamanho G',
+            },
+            {
+                descricao: 'bermuda de praia tamanho 42'
+            }
+        ]
     },
     {
         id: 7,
-        nome: 'Ketlin'
+        nome: 'Ketlin',
+        presente: [
+            {
+                descricao: 'cafeteira 110V',
+                imagem: '/assets/ketlin1.png'
+
+            },
+            {
+                descricao: 'torradeira 110V',
+                imagem: '/assets/ketlin2.png'
+            }
+        ]
     },
     {
         id: 8,
-        nome: 'Paulo'
+        nome: 'Paulo',
+        presente: [
+            {
+                descricao: 'calça jeans número 42'
+            }
+        ]
     },
     {
         id: 9,
-        nome: 'Eunice'
+        nome: 'Eunice',
+        presente: [
+            {
+                descricao: 'Taças para drinks'
+            }
+        ]
     },
     {
         id: 10,
